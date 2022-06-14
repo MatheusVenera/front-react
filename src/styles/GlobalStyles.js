@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import { primaryColor, primaryDarkColor } from '../config/colors'
+import 'react-toastify/dist/ReactToastify.css'
 
 export default createGlobalStyle`
     * {
@@ -14,6 +15,7 @@ export default createGlobalStyle`
         background: ${primaryDarkColor};
         color: ${primaryColor}
     }
+
 
     html, body, #root {
         height: 100%;
